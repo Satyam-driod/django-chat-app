@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chat  Rooms</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    {% include 'chatroom/nav.html' %}
+    <div class="container">
+        <h2 class="heading">What chat room would you like to enter?</h2>
+        <div class="room-list">
+            <h4 class="room-heading">Already existing rooms</h4>
+            <ui>
+                {% for room in rooms.all %}
+                        <li id="room_name" class="room">{{room.name}}</li>
+                {% endfor %}
+            </ui>
+        </div>
+        <div class="form-wrapper">
+        <input class="textInput" id="room-name-input" type="text" size="100"><br>
+        <input class="button" id="room-name-submit" type="button" value="Enter">
+        </div>
+    </div>
+
+    <script src="{% static 'index.js' %}"></script>
+</body>
+</html>

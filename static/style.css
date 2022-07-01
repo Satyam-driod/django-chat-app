@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	background-color: #f5f5f5;
+}
+
+.container {
+	width: 50vw;
+	margin: 50px auto;
+	padding: 25px 10px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.form-wrapper{
+	display: flex;
+	justify-content: space-around;
+}
+
+.textContainer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5rem;
+}
+
+.textInput {
+	border: none;
+	border-bottom: 2px solid #ddd;
+	line-height: 1.2rem;
+	transition: 0.3s;
+	width: 80%;
+	font-size: 18px;
+	color: rgb(74, 74, 74);
+}
+
+.textInput:focus {
+	outline: none;
+	border-bottom: 2px solid #333;
+	transition: 0.3s;
+}
+
+.button {
+	background-color: #ffffff;
+	color: #9a4ef1;
+	border: 0.16em solid #9a4ef1;
+	border-radius: 1.5em;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	width: 15%;
+	margin-right: 20px;
+}
+
+.button:hover {
+	background-color: #9a4ef1;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.emptyText {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5rem;
+}
+
+.message {
+	color:  #ffffff;
+	width: 15%;
+	padding: 8px;
+	border-radius: 1em;
+	margin: 15px 0px;
+	font-family: 'Poppins', sans-serif;
+	word-wrap: break-word; 
+}
+
+.username{
+	font-size: 15px;
+	text-align: left;
+	margin: 0px;
+	color: #71aeeb;
+}
+.text{
+	font-size: 13px;
+	margin: 0px;
+	text-align: left;
+}
+
+.sender{
+	background-color: #71aeeb;
+	margin-left: auto;
+}
+.receiver{
+	background-color: #a8e3ad;
+	
+}
+
+
+.leaveButton {
+	background-color: #f5f5f5;
+	border-color: #9a4ef1;
+	color: #9a4ef1;
+	border: 0.16em solid #9a4ef1;
+	border-radius: 1.5em;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	width: 100px;
+	margin: 20px;
+}
+
+.leaveButton:hover {
+	background-color: #9a4ef1;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.nav{
+	height:25px;
+	text-align: right;
+	box-shadow: 0px 0px 10px 0px solid rgb(166, 166, 166);
+}
+
+.sign-out{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	color: #333;
+	transition: 0.3s;
+	margin-right: 40px;
+
+}
+
+.sign-out:hover{
+	cursor: pointer;
+	color: #9a4ef1;
+	transition: 0.3s;
+}
+.room-list{
+	text-align: left;
+	display: block;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.room{
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Poppins';
+	color: #9a4ef1;
+}
+
+.room-heading{
+	margin: 0px;
+	margin-top: 25px;
+	font-family: 'Poppins';
+	font-weight: 100;
+	
+}
