@@ -63,7 +63,6 @@ if(chatLog.hasChildNodes().length<=1){
         document.querySelector('#chat-message-submit').onclick = function(e) {
             const messageInputDom = document.querySelector('#chat-message-input');
             const message = messageInputDom.value;
-            console.log(message);
             chatSocket.send(JSON.stringify({
                 'message': message
             }));
